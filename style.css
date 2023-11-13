@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("./images/background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  width: 6rem;
+  height: 6rem;
+  padding: 3rem 0 1rem 0;
+}
+
+.insta {
+  font-family: 'Mukta', sans-serif;
+  padding: 0 0 1rem 0;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 1.3rem;
+}
+
+.box-primary{
+  width: 18rem;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  background-color: azure;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.logotiktokblack {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0.5rem 0 0;
+}
+
+.logoinstablack {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 0 0 0.5rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.ponto::before {
+  content: "▪️";
+}
+
+.options1{
+  width: 17rem;
+  height: 3rem;
+  margin-top: 2.5rem;  
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+
+.carrinho{
+  padding: 0 2rem 0 1rem;
+  width: 2.3rem;
+  height: 2rem;
+}
+
+.text-options1{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.options2{
+  width: 17rem;
+  height: 3rem;
+  margin-top: 2.5rem;  
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+
+.best{
+  padding: 0 2rem 0 1rem;
+  width: 2.3rem;
+  height: 2rem;
+}
+
+.text-options2{
+  text-decoration: none;
+  color: black;
+}
+
+.options3{
+  width: 17rem;
+  height: 3rem;
+  margin-top: 2.5rem;  
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+
+.insta{
+  padding: 0 2rem 0 1rem;
+  width: 2.3rem;
+  height: 2rem;
+}
+
+.text-options3{
+  text-decoration: none;
+  color: black;
+}
+
+.options4{
+  width: 17rem;
+  height: 3rem;
+  margin-top: 2.5rem;  
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+
+.tiktok{
+  padding: 0 2rem 0 1rem;
+  width: 2.3rem;
+  height: 2rem;
+}
+
+.text-options4{
+  text-decoration: none;
+  color: black;
+}
