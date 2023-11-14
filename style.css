@@ -138,4 +138,20 @@ body{
   .box-primary{
     width: 18rem;
   }
+
+  .carrinho{
+    padding: 0 4rem 0 1rem;
+  }
+  
+  .best{
+    padding: 0 2.8rem 0 1rem;
+  }
+  
+  .instagram{
+    padding: 0 5rem 0 1rem;
+  }
+  
+  .tiktok{
+    padding: 0 6.2rem 0 1rem;
+  }
 }
