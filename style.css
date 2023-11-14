@@ -126,3 +126,16 @@ body{
   font-size: 1rem;
   font-weight: bolder;
 }
+
+@media (max-width: 48rem) {
+  .text-options1,
+  .text-options2,
+  .text-options3,
+  .text-options4 {
+    width: 20rem;
+  }
+
+  .box-primary{
+    width: 18rem;
+  }
+}
