@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body{
   background-image: url("./images/background.jpg");
   display: flex;
@@ -11,40 +17,22 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 100%;
 }
 
-header{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .logo{
+  margin: 3rem 0 1rem 0;
   width: 6rem;
   height: 6rem;
-  padding: 3rem 0 1rem 0;
+  border-radius: 100%;
 }
 
 .insta {
-  font-family: 'Mukta', sans-serif;
   padding: 0 0 1rem 0;
-  text-align: center;
+  font-family: 'Mukta', sans-serif;
   font-weight:bolder;
   font-size: 1.3rem;
-}
-
-.box-primary{
-  width: 18rem;
-  text-align: center;
-  font-family: 'Mukta', sans-serif;
-  background-color: azure;
-  padding: 1rem;
-  margin-top: 2.5rem;
-  border-radius: 1rem;
-  box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.5);
-  font-weight: bolder;
-  font-size: 1.2rem;
 }
 
 .logotiktokblack {
@@ -59,104 +47,82 @@ header{
   padding: 0 0 0 0.5rem;
 }
 
-.social-media {
+.box-primary{
+  width: 22rem;
+  height: 2.4rem;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  background-color: azure;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+  font-size: 1.2rem;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
+
 
 .ponto::before {
   content: "▪️";
 }
 
-.options1{
-  width: 17rem;
-  height: 3rem;
-  margin-top: 2.5rem;  
-  display: flex;
-  background-color: azure;
-  align-items: center;
-  border-radius: 1rem;
-  font-family: 'Mukta', sans-serif;
-  font-weight: bold;
-}
-
 .carrinho{
-  padding: 0 2rem 0 1rem;
-  width: 2.3rem;
-  height: 2rem;
-}
-
-.text-options1{
-  text-decoration: none;
-  color: black;
-  
-}
-
-.options2{
-  width: 17rem;
-  height: 3rem;
-  margin-top: 2.5rem;  
-  display: flex;
-  background-color: azure;
-  align-items: center;
-  border-radius: 1rem;
-  font-family: 'Mukta', sans-serif;
-  font-weight: bold;
+  padding: 0 5.5rem 0 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 .best{
-  padding: 0 2rem 0 1rem;
-  width: 2.3rem;
-  height: 2rem;
+  padding: 0 4.6rem 0 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
-.text-options2{
-  text-decoration: none;
-  color: black;
-}
-
-.options3{
-  width: 17rem;
-  height: 3rem;
-  margin-top: 2.5rem;  
-  display: flex;
-  background-color: azure;
-  align-items: center;
-  border-radius: 1rem;
-  font-family: 'Mukta', sans-serif;
-  font-weight: bold;
-}
-
-.insta{
-  padding: 0 2rem 0 1rem;
-  width: 2.3rem;
-  height: 2rem;
-}
-
-.text-options3{
-  text-decoration: none;
-  color: black;
-}
-
-.options4{
-  width: 17rem;
-  height: 3rem;
-  margin-top: 2.5rem;  
-  display: flex;
-  background-color: azure;
-  align-items: center;
-  border-radius: 1rem;
-  font-family: 'Mukta', sans-serif;
-  font-weight: bold;
+.instagram{
+  padding: 0 7.3rem 0 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 .tiktok{
-  padding: 0 2rem 0 1rem;
-  width: 2.3rem;
-  height: 2rem;
+  padding: 0 7.9rem 0 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
-.text-options4{
+.text-options4 {
+  margin: 2.5rem 0 8rem 0;
+}
+
+.text-options1,
+.text-options2,
+.text-options3,
+.text-options4 {
   text-decoration: none;
   color: black;
+  width: 24rem;
+  height: 3rem;
+  margin-top: 2.5rem;
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+  transition: transform 0.3s ease; /* Adiciona a transição para a propriedade de transformação */
+}
+
+.text-options1:hover,
+.text-options2:hover,
+.text-options3:hover,
+.text-options4:hover {
+  transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+
+.gd{
+  font-family: 'Mukta', sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
 }
