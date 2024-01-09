@@ -66,6 +66,7 @@ body{
 
 .ponto::before {
   content: "▪️";
+  padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .carrinho{
@@ -129,7 +130,6 @@ body{
 
 @media (max-width: 48rem) {
   .text-options1,
-  .text-options2,
   .text-options3,
   .text-options4 {
     width: 20rem;
